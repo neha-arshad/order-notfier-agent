@@ -31,7 +31,7 @@ def send_whatsapp_message(recipient: str, message: str) -> str:
 
 provider = AsyncOpenAI(
     api_key=gemini_api_key,
-    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+    
 )
 
 model = OpenAIChatCompletionsModel(
