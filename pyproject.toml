@@ -1,0 +1,11 @@
+[project]
+name = "order-notfier-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openai-agents==0.0.16",
+    "streamlit>=1.47.0",
+    "twilio>=9.6.5",
+]
